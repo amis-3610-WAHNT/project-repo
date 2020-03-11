@@ -1,0 +1,31 @@
+form {
+    font-family: 'Open Sans', sans-serif;
+}
+
+form div {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+form button {
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+}
+
+.formTitle {
+    padding-top: .75em;
+    font-size: 1.5rem;
+    margin-left: -5px;
+}
+
+.formSubtitle {
+    font-size: 1rem;
+}
+
+.inputPadding {
+    margin-bottom: -3px;
+}
+
+.bold {
+    font-weight: bold;
+}
