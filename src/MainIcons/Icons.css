@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+.card-columns .card {
+    border-radius: 25px;
+}
+
+a {
+    color: black;
+}
+
+a :hover {
+    color: black;
+}

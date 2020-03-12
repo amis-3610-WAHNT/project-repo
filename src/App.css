@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.topGrid {
+  margin-top: 2em;
+}
+
+.rowSpacing {
+  margin-top: 5%;
+}
+
+.largeText {
+  font-family: 'Open Sans', sans-serif;
+  font-size: xx-large;
+}
+
+.horizontalLine {
+  background-color: black;
+}
