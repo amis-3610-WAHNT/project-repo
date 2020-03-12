@@ -44,7 +44,7 @@ export default class App extends Component {
           </Row>
           <Row>
             <Col xs={5}>
-              <a href="# " onClick={this.handleClick}>
+              <a href="/#" onClick={this.handleClick}>
                 <Icons />
               </a>
             </Col>
