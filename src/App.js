@@ -52,7 +52,7 @@ export default class App extends Component {
                 <Icons />
               </a>
             </Col>
-            <Col>
+            <Col xs={7}>
               <IconDetails />
             </Col>
           </Row>
