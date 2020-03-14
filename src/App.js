@@ -6,6 +6,9 @@ import {Image} from "react-bootstrap";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Icons from "./MainIcons/Icons.js";
+import IconDetails from "./IconDetails/IconDetails.js";
+
+
 
 export default class App extends Component {
   constructor(props) {
@@ -21,7 +24,8 @@ export default class App extends Component {
     e.preventDefault();
     this.setState(state => ({
       isClick: !state.isClick
-    }));
+    })
+    );
   }
 
   render() {
@@ -48,8 +52,8 @@ export default class App extends Component {
                 <Icons />
               </a>
             </Col>
-            <Col xs={8}>
-              
+            <Col xs={7}>
+              <IconDetails />
             </Col>
           </Row>
         </Container>
