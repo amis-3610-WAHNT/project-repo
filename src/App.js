@@ -53,7 +53,9 @@ export default class App extends Component {
               </a>
             </Col>
             <Col xs={7}>
-              <IconDetails />
+              <a href="/#" onClick={this.handleClick}>
+                <IconDetails />
+              </a>
             </Col>
           </Row>
         </Container>
