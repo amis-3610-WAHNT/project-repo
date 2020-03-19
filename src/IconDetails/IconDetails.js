@@ -18,7 +18,7 @@ export default class IconDetails extends Component {
 
     render() {
         return(
-            <div className="IconDetail">
+            <div className="IconDetails">
                 <div>
                     <IconDetailsDisplay cocktails={this.state.cocktails} />
                 </div>
