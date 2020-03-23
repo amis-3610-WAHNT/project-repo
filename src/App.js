@@ -7,7 +7,7 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Icons from "./MainIcons/Icons.js";
 import IconDetails from "./IconDetails/IconDetails.js";
-
+import SearchPage from "./SearchPage/SearchPage.js";
 
 
 export default class App extends Component {
@@ -32,15 +32,29 @@ export default class App extends Component {
     return (
       <div className="topGrid">
         <Container>
+          {/* <Row className="rowSpacing">
+            <Col xs={{ span: 4, offset: 7}}>
+              <div className="inlineButton">
+                <SearchPage />
+                <button className="btn btn-primary login">Login</button>
+                <button className="signUp">Sign Up</button>
+              </div>
+            </Col>
+          </Row> */}
           <Row className="show-grid">
             <Col xs={7}>
               <Image src={Logo} fluid/>
             </Col>
             <Col md={4}>
+              <div className="inlineButton rowSpacing">
+                <SearchPage />
+                <button className="btn btn-light" variant="light">Login</button>
+                <button className="btn btn-dark" variant="dark">Sign Up</button>
+              </div>
               <Form />
             </Col>
           </Row>
-          <Row className="rowSpacing largeText">
+          <Row className="rowTopSpacing largeText">
             <Col>
               All Cocktails
               <hr className="horizontalLine"/>

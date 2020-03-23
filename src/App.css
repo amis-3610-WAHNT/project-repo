@@ -41,7 +41,7 @@
   margin-top: 2em;
 }
 
-.rowSpacing {
+.rowTopSpacing {
   margin-top: 5%;
 }
 
@@ -52,4 +52,13 @@
 
 .horizontalLine {
   background-color: black;
+}
+
+.inlineButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowSpacing {
+  padding-bottom: 1em;
 }
