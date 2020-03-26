@@ -1,12 +1,21 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { MDBIcon } from "mdbreact";
+import {Container, Row, Col} from "react-bootstrap";
     
 export default function IconsCard(props) {
     return (
             <Card border="light">
                 <Card.Body>
-                    <Card.Title>{props.cocktail.name}</Card.Title>
-                    <Card.Text>{props.cocktail.directions}</Card.Text>
+                    <Row type="flex">
+                        <Col md={11}>
+                            <Card.Title>{props.cocktail.name}</Card.Title>
+                            <Card.Text>{props.cocktail.directions}</Card.Text>
+                        </Col>
+                        <Col md={1}>
+                            <MDBIcon icon="chevron-right" />
+                        </Col>
+                    </Row>
                 </Card.Body>
             </Card>
     );
